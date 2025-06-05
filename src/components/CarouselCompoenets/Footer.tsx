@@ -2,17 +2,17 @@ const Footer = () => {
   const steps = [
     {
       title: 'Join Our Community',
-      icons: ['/public/assets/images/telegram.png'],
+      icons: ['/assets/images/telegram.png'],
     },
     {
       title: 'Read the Docs',
-      icons: ['/public/assets/images/docs.png'],
+      icons: ['/assets/images/docs.png'],
     },
     {
       title: 'Follow us on',
       icons: [
-        '/public/assets/images/x.png',
-        '/public/assets/images/medium.png',
+        '/assets/images/x.png',
+        '/assets/images/medium.png',
       ],
     },
   ];
