@@ -6,8 +6,10 @@ const tags = [
   { title: 'Our mission' },
   { title: 'How it works' },
   { title: 'Features' },
+  { title: 'Use Case' },
   { title: 'Why Texor.Cloud' },
   { title: 'Roadmap' },
+  { title: 'Footer' },
 ];
 
 interface NavbarProps {
@@ -38,7 +40,7 @@ const Navbar = ({ onNavigate }: NavbarProps) => {
         </div>
 
         {/* Desktop Links */}
-        <ul className="hidden md:flex gap-12">
+        <ul className="hidden md:flex gap-6">
           {tags.map((tag, index) => (
             <li
               key={tag.title}

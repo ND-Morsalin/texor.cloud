@@ -2,27 +2,23 @@ import { motion, AnimatePresence } from 'framer-motion';
 import Hero from './CarouselCompoenets/Hero';
 import OurMission from './CarouselCompoenets/OurMission';
 import HowItWorks from './CarouselCompoenets/HowItWorks';
+import Features from './CarouselCompoenets/Features';
+import UseCase from './CarouselCompoenets/ExampleOfUseCase';
+import WhyTextCloud from './CarouselCompoenets/WhyTextCloud';
+import Roadmap from './CarouselCompoenets/RoadMap';
+import Footer from './CarouselCompoenets/Footer';
 
-const SlideFour = () => (
-  <div>
-    <h2 className="text-3xl font-bold mb-2">Slide 4</h2>
-    <p className="text-lg">Slide 4 content goes here.</p>
-  </div>
-);
 
-const SlideFive = () => (
-  <div>
-    <h2 className="text-3xl font-bold mb-2">Slide 5</h2>
-    <p className="text-lg">Last slide in the carousel.</p>
-  </div>
-);
 
 const slides = [
   <Hero key="slide1" />,
   <OurMission key="slide2" />,
   <HowItWorks key="slide3" />,
-  <SlideFour key="slide4" />,
-  <SlideFive key="slide5" />,
+  <Features key="slide4" />,
+  <UseCase key="slide5" />,
+  <WhyTextCloud key="slide6" />,
+  <Roadmap key="slide7" />,
+  <Footer key="slide8" />
 ];
 
 interface CarouselProps {
