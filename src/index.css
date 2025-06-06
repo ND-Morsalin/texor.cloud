@@ -25,6 +25,10 @@ body {
   color: var(--color-foreground);
   overflow-x: hidden;
 }
+.stroke-text {
+  -webkit-text-stroke: 1px #F7F7F8;
+  color: transparent;
+}
 
 @layer base {
   @font-face {

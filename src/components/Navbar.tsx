@@ -89,7 +89,7 @@ const Navbar = ({ onNavigate }: NavbarProps) => {
                 <li
                   key={tag.title}
                   onClick={() => {
-                    onNavigate(index);
+                    onNavigate(index + 1);
                     setDrawerOpen(false);
                   }}
                   className="text-xl text-white font-medium cursor-pointer transition-all hover:text-accent"
