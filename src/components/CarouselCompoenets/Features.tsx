@@ -42,9 +42,9 @@ const Features = () => {
     },
   ];
   return (
-    <section className="px-4 my-32 lg:px-0">
+    <section className="px-4 lg:px-0  py-10 lg:py-20">
       {/* Title Section */}
-      <div className="pb-8 max-w-4xl mx-auto  pt-40">
+      <div className="max-w-4xl mx-auto mb-8 ">
         <h3 className="title">What You Can Do With Texor.Cloud</h3>
         <p className="text-title">
           Texor.Cloud gives you a powerful set of tools to create, connect,

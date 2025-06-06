@@ -42,9 +42,9 @@ const UseCase = () => {
     },
   ];
   return (
-    <section className="px-4 my-32 lg:px-0">
+    <section className="px-4 lg:px-0 py-10 lg:py-20">
       {/* Title Section */}
-      <div className="pb-8 max-w-4xl mx-auto  pt-40">
+      <div className="max-w-4xl mx-auto mb-10">
         <h3 className="title">Example Use Cases</h3>
         <p className="text-title">
           These are just a few agent types you can build with Texor. Anything with 
@@ -61,7 +61,10 @@ const UseCase = () => {
               key={index}
               className={`relative bg-[#000503E5] border-[1.25px] border-[#161616] p-2 rounded-lg shadow-lg`}
             >
-              <div className="border-[1.25px] border-[#003A27] rounded-lg p-3 w-full h-full">
+              <div style={{
+                  background:
+                    'linear-gradient(180deg, rgba(6, 109, 75, 0) 35.45%, rgba(3, 79, 53, 0.5) 100.5%, rgba(2, 70, 47, 0.639423) 118.63%, #003020 165.54%)',
+                }} className="border-[1.25px] border-[#003A27] rounded-lg p-3 w-full h-full">
                 <div className="mb-6">
                 <img className="rounded-2xl " 
                 style={{
@@ -71,10 +74,7 @@ const UseCase = () => {
                 src={step.icon} alt={`${step.title} Icon`} />
               </div>
               <div
-                style={{
-                  background:
-                    'linear-gradient(180deg, rgba(6, 109, 75, 0) 35.45%, rgba(3, 79, 53, 0.5) 100.5%, rgba(2, 70, 47, 0.639423) 118.63%, #003020 165.54%)',
-                }}
+                
                 className=""
               >
                 <h3 className="text-xl font-semibold mb-2">{step.title}</h3>

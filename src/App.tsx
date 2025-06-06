@@ -7,7 +7,7 @@ const App = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   return (
-    <div className="relative w-full h-screen overflow-x-hidden">
+    <div className="relative w-full">
       <Navbar onNavigate={setCurrentSlide} />
       <BackgroundVideo />
       <div className="relative z-10 flex items-center justify-center w-full h-full">

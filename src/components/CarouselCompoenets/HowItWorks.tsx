@@ -27,9 +27,9 @@ const HowItWorks = () => {
     },
   ];
   return (
-    <section className="px-4 mt-32 lg:px-0">
+    <section className="px-4 lg:px-0  py-10 lg:py-20">
       {/* Title Section */}
-      <div className="pt-24 pb-8">
+      <div className="mb-10 max-w-4xl mx-auto">
         <h3 className="title">How It Works</h3>
         <p className="text-title">
           Agents on Texor.Cloud are built using simple logic blocks. Each block
